@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_70deb6029f1cdc1e4d770fa7ab5ec551 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_70deb6029f1cdc1e4d770fa7ab5ec551" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_70deb6029f1cdc1e4d770fa7ab5ec551 = L.map(
+                "map_70deb6029f1cdc1e4d770fa7ab5ec551",
+                {
+                    center: [45.7807521, 16.0060215],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0559574cb44fe6991b8f63fa90bde8eb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0559574cb44fe6991b8f63fa90bde8eb.addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var marker_942d023b8e21d51502af2adf8e38e404 = L.marker(
+                [45.7807521, 16.0060215],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_89653aaed2002c0bc9433bd826a7c930 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e13ae7faa3c44f270cc99f3c22ca7ed9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e1de5f0cd9af7f5e29ae9d11eadab35 = $(`<div id="html_3e1de5f0cd9af7f5e29ae9d11eadab35" style="width: 100.0%; height: 100.0%;">1. BRANIMIR PERVAN</div>`)[0];
+                popup_e13ae7faa3c44f270cc99f3c22ca7ed9.setContent(html_3e1de5f0cd9af7f5e29ae9d11eadab35);
+            
+        
+
+        marker_942d023b8e21d51502af2adf8e38e404.bindPopup(popup_e13ae7faa3c44f270cc99f3c22ca7ed9)
+        ;
+
+        
+    
+    
+                marker_942d023b8e21d51502af2adf8e38e404.setIcon(icon_89653aaed2002c0bc9433bd826a7c930);
+            
+    
+            var marker_c760a0ea5a391b3a1f6f3058dca04d69 = L.marker(
+                [45.7920818, 15.9805154],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_df349653ec20d91d2636b71b8e82ee02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3f2eeecd2ce32e8847a8dea1e0e238b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3ef5582ad1896c4f44f65b096b79591 = $(`<div id="html_c3ef5582ad1896c4f44f65b096b79591" style="width: 100.0%; height: 100.0%;">2. KREŠIMIR ROTIM</div>`)[0];
+                popup_b3f2eeecd2ce32e8847a8dea1e0e238b.setContent(html_c3ef5582ad1896c4f44f65b096b79591);
+            
+        
+
+        marker_c760a0ea5a391b3a1f6f3058dca04d69.bindPopup(popup_b3f2eeecd2ce32e8847a8dea1e0e238b)
+        ;
+
+        
+    
+    
+                marker_c760a0ea5a391b3a1f6f3058dca04d69.setIcon(icon_df349653ec20d91d2636b71b8e82ee02);
+            
+    
+            var marker_c430eaf88504d6e4868c28c6c1219661 = L.marker(
+                [45.8638539, 15.7978717],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_9299f5805c2fed2543e9b063d579a667 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_078320a9bc56801d613937781d661075 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79a1f9fbe19a869be54abeab051eff0d = $(`<div id="html_79a1f9fbe19a869be54abeab051eff0d" style="width: 100.0%; height: 100.0%;">3. ANTONIO PRIŠĆAN</div>`)[0];
+                popup_078320a9bc56801d613937781d661075.setContent(html_79a1f9fbe19a869be54abeab051eff0d);
+            
+        
+
+        marker_c430eaf88504d6e4868c28c6c1219661.bindPopup(popup_078320a9bc56801d613937781d661075)
+        ;
+
+        
+    
+    
+                marker_c430eaf88504d6e4868c28c6c1219661.setIcon(icon_9299f5805c2fed2543e9b063d579a667);
+            
+    
+            var marker_f1381b32edac81b08af167a060317688 = L.marker(
+                [45.7762914, 15.9528212],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_5366dbc8a27f706ef71fc8b7981dfafa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0fbe9c3d04e1a0321cd23b76469d15a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce04b2856bf3d149a869b7b890c7ed0a = $(`<div id="html_ce04b2856bf3d149a869b7b890c7ed0a" style="width: 100.0%; height: 100.0%;">4. JOZO KRAJINOVIĆ</div>`)[0];
+                popup_a0fbe9c3d04e1a0321cd23b76469d15a.setContent(html_ce04b2856bf3d149a869b7b890c7ed0a);
+            
+        
+
+        marker_f1381b32edac81b08af167a060317688.bindPopup(popup_a0fbe9c3d04e1a0321cd23b76469d15a)
+        ;
+
+        
+    
+    
+                marker_f1381b32edac81b08af167a060317688.setIcon(icon_5366dbc8a27f706ef71fc8b7981dfafa);
+            
+    
+            var marker_1e2a280b391de388b4d4f482e5b21e29 = L.marker(
+                [45.793608, 15.9957526],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_d757d089312948c058992253a201bdc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf681ed083055f8dd803a2e7954ab032 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f51e6030098c9841068ad8f5753e9ad1 = $(`<div id="html_f51e6030098c9841068ad8f5753e9ad1" style="width: 100.0%; height: 100.0%;">5. LOVRO MARKOVIĆ</div>`)[0];
+                popup_cf681ed083055f8dd803a2e7954ab032.setContent(html_f51e6030098c9841068ad8f5753e9ad1);
+            
+        
+
+        marker_1e2a280b391de388b4d4f482e5b21e29.bindPopup(popup_cf681ed083055f8dd803a2e7954ab032)
+        ;
+
+        
+    
+    
+                marker_1e2a280b391de388b4d4f482e5b21e29.setIcon(icon_d757d089312948c058992253a201bdc3);
+            
+    
+            var marker_4774ca926cf2f311e36ff2973ebf3a34 = L.marker(
+                [45.7845267, 16.0162182],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_5bbfa0b6bcc6ccd7653adafd55d3c324 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da8f853bb0b8a4674df4f9c7eea393f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e2bd52dfbfcfb0efe8de28b525bb1a5 = $(`<div id="html_5e2bd52dfbfcfb0efe8de28b525bb1a5" style="width: 100.0%; height: 100.0%;">6. MAJA BOSNIĆ TABAIN</div>`)[0];
+                popup_da8f853bb0b8a4674df4f9c7eea393f0.setContent(html_5e2bd52dfbfcfb0efe8de28b525bb1a5);
+            
+        
+
+        marker_4774ca926cf2f311e36ff2973ebf3a34.bindPopup(popup_da8f853bb0b8a4674df4f9c7eea393f0)
+        ;
+
+        
+    
+    
+                marker_4774ca926cf2f311e36ff2973ebf3a34.setIcon(icon_5bbfa0b6bcc6ccd7653adafd55d3c324);
+            
+    
+            var marker_a84386df4980111fe821a13513e452b6 = L.marker(
+                [45.8206164, 15.8732369],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_f088ccb6e245f40e0a7d9aa520a25b6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6117f49c632262571f29058ef8f051f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fb3a79606ac9df8662c8a6a09e056a2 = $(`<div id="html_9fb3a79606ac9df8662c8a6a09e056a2" style="width: 100.0%; height: 100.0%;">7. IVAN ORLOVIĆ</div>`)[0];
+                popup_e6117f49c632262571f29058ef8f051f.setContent(html_9fb3a79606ac9df8662c8a6a09e056a2);
+            
+        
+
+        marker_a84386df4980111fe821a13513e452b6.bindPopup(popup_e6117f49c632262571f29058ef8f051f)
+        ;
+
+        
+    
+    
+                marker_a84386df4980111fe821a13513e452b6.setIcon(icon_f088ccb6e245f40e0a7d9aa520a25b6d);
+            
+    
+            var marker_74cce24d14b97a3eaa808228be6b7e00 = L.marker(
+                [45.8202433, 15.8835749],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_1184cb8bdbfd5e41ab409caace669831 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_261deafd336aeb35988b38b993c6df40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4db0f90292300f12970d5ac1440fe451 = $(`<div id="html_4db0f90292300f12970d5ac1440fe451" style="width: 100.0%; height: 100.0%;">8. FILIP FIŠIĆ</div>`)[0];
+                popup_261deafd336aeb35988b38b993c6df40.setContent(html_4db0f90292300f12970d5ac1440fe451);
+            
+        
+
+        marker_74cce24d14b97a3eaa808228be6b7e00.bindPopup(popup_261deafd336aeb35988b38b993c6df40)
+        ;
+
+        
+    
+    
+                marker_74cce24d14b97a3eaa808228be6b7e00.setIcon(icon_1184cb8bdbfd5e41ab409caace669831);
+            
+    
+            var marker_8ca56dd0dd52ac0794f21ac2667e934c = L.marker(
+                [45.7958092, 15.9665618],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_e00e2fab4af78f250589bbfd21947d42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbc95cf5f7cf9a9fd8ad36f74ba33327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_433c101eb5063f13bc21a7c091ccc19e = $(`<div id="html_433c101eb5063f13bc21a7c091ccc19e" style="width: 100.0%; height: 100.0%;">9. MARTINA KOLAR BILLEGE</div>`)[0];
+                popup_dbc95cf5f7cf9a9fd8ad36f74ba33327.setContent(html_433c101eb5063f13bc21a7c091ccc19e);
+            
+        
+
+        marker_8ca56dd0dd52ac0794f21ac2667e934c.bindPopup(popup_dbc95cf5f7cf9a9fd8ad36f74ba33327)
+        ;
+
+        
+    
+    
+                marker_8ca56dd0dd52ac0794f21ac2667e934c.setIcon(icon_e00e2fab4af78f250589bbfd21947d42);
+            
+    
+            var marker_02c949c9140feee90f580befe0a2a5bc = L.marker(
+                [45.8324736, 16.0573993],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_ff706a170e1da8a7ac104e09e275bc4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_588cd8954d14711054d527c388f5f99c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0756cd0451c6c3e3235a434a16e217f7 = $(`<div id="html_0756cd0451c6c3e3235a434a16e217f7" style="width: 100.0%; height: 100.0%;">10. KREŠIMIR BUŠIĆ</div>`)[0];
+                popup_588cd8954d14711054d527c388f5f99c.setContent(html_0756cd0451c6c3e3235a434a16e217f7);
+            
+        
+
+        marker_02c949c9140feee90f580befe0a2a5bc.bindPopup(popup_588cd8954d14711054d527c388f5f99c)
+        ;
+
+        
+    
+    
+                marker_02c949c9140feee90f580befe0a2a5bc.setIcon(icon_ff706a170e1da8a7ac104e09e275bc4c);
+            
+    
+            var marker_0c10b60f503c9e9d9a23b82df55ce9ee = L.marker(
+                [45.8103864, 16.0238099],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_a93e7df8166f086c8a8596ea57c82bb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5caf0eb0b7c97732fb4ce4658b41af7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcbbbdf5a0f41a64233ac3dbe4082f37 = $(`<div id="html_dcbbbdf5a0f41a64233ac3dbe4082f37" style="width: 100.0%; height: 100.0%;">11. IRIS VERONIKA CETINA</div>`)[0];
+                popup_5caf0eb0b7c97732fb4ce4658b41af7e.setContent(html_dcbbbdf5a0f41a64233ac3dbe4082f37);
+            
+        
+
+        marker_0c10b60f503c9e9d9a23b82df55ce9ee.bindPopup(popup_5caf0eb0b7c97732fb4ce4658b41af7e)
+        ;
+
+        
+    
+    
+                marker_0c10b60f503c9e9d9a23b82df55ce9ee.setIcon(icon_a93e7df8166f086c8a8596ea57c82bb1);
+            
+    
+            var marker_8548d25b5737635b4f2a2ed2687890b5 = L.marker(
+                [45.8505345, 15.9995593],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_becd89de186766cf074eb9a0b11dbc53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_654ff0414f311b262db834580329827f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caeae13140ea3ab60c932c45b7e2eeab = $(`<div id="html_caeae13140ea3ab60c932c45b7e2eeab" style="width: 100.0%; height: 100.0%;">12. IVA REM</div>`)[0];
+                popup_654ff0414f311b262db834580329827f.setContent(html_caeae13140ea3ab60c932c45b7e2eeab);
+            
+        
+
+        marker_8548d25b5737635b4f2a2ed2687890b5.bindPopup(popup_654ff0414f311b262db834580329827f)
+        ;
+
+        
+    
+    
+                marker_8548d25b5737635b4f2a2ed2687890b5.setIcon(icon_becd89de186766cf074eb9a0b11dbc53);
+            
+    
+            var marker_739b29ff73fb61c4cb8e924c06ecc2e2 = L.marker(
+                [45.8445545, 16.034424],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_2d0f01e7b1725d835b2c4fac55f63965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fed0859ea31211c84f1567d4c649efc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e83d84b0f7f39d3cddb72ac6ace45d51 = $(`<div id="html_e83d84b0f7f39d3cddb72ac6ace45d51" style="width: 100.0%; height: 100.0%;">13. DOMAGOJ JUKIĆ</div>`)[0];
+                popup_2fed0859ea31211c84f1567d4c649efc.setContent(html_e83d84b0f7f39d3cddb72ac6ace45d51);
+            
+        
+
+        marker_739b29ff73fb61c4cb8e924c06ecc2e2.bindPopup(popup_2fed0859ea31211c84f1567d4c649efc)
+        ;
+
+        
+    
+    
+                marker_739b29ff73fb61c4cb8e924c06ecc2e2.setIcon(icon_2d0f01e7b1725d835b2c4fac55f63965);
+            
+    
+            var marker_292dd4375eece4110f1c2e1d180e8343 = L.marker(
+                [45.8097282, 15.9582438],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_963e54410893b06e0f23004ed2a107c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_823799864a754e302b4b0620645b9184 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67250af98cc67f8567eb96462c4d5353 = $(`<div id="html_67250af98cc67f8567eb96462c4d5353" style="width: 100.0%; height: 100.0%;">14. ANTE BREŠIĆ MIKULIĆ</div>`)[0];
+                popup_823799864a754e302b4b0620645b9184.setContent(html_67250af98cc67f8567eb96462c4d5353);
+            
+        
+
+        marker_292dd4375eece4110f1c2e1d180e8343.bindPopup(popup_823799864a754e302b4b0620645b9184)
+        ;
+
+        
+    
+    
+                marker_292dd4375eece4110f1c2e1d180e8343.setIcon(icon_963e54410893b06e0f23004ed2a107c2);
+            
+    
+            var marker_aa4f8121219b755ac758ad75752d92a9 = L.marker(
+                [45.7720894, 15.9578892],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_5ae216b359ff39718684490dbe32e883 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58e4b1576f39c221530560ebed64bab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2502955ce90a5b3b1b8d220f39d7e62f = $(`<div id="html_2502955ce90a5b3b1b8d220f39d7e62f" style="width: 100.0%; height: 100.0%;">15. VESELJKO RAJIČ</div>`)[0];
+                popup_58e4b1576f39c221530560ebed64bab4.setContent(html_2502955ce90a5b3b1b8d220f39d7e62f);
+            
+        
+
+        marker_aa4f8121219b755ac758ad75752d92a9.bindPopup(popup_58e4b1576f39c221530560ebed64bab4)
+        ;
+
+        
+    
+    
+                marker_aa4f8121219b755ac758ad75752d92a9.setIcon(icon_5ae216b359ff39718684490dbe32e883);
+            
+    
+            var marker_4a96691cdeb7e8a5815190561ccebf10 = L.marker(
+                [45.7906031, 16.0667114],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_8e43454515ff19f2f7f9f6102c89d1d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58bd4081f4a8dc31a67ec068e3911a49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1b5bb6ac41eb986eea417c75c506ac5 = $(`<div id="html_b1b5bb6ac41eb986eea417c75c506ac5" style="width: 100.0%; height: 100.0%;">16. GLORIA TKALČIĆ</div>`)[0];
+                popup_58bd4081f4a8dc31a67ec068e3911a49.setContent(html_b1b5bb6ac41eb986eea417c75c506ac5);
+            
+        
+
+        marker_4a96691cdeb7e8a5815190561ccebf10.bindPopup(popup_58bd4081f4a8dc31a67ec068e3911a49)
+        ;
+
+        
+    
+    
+                marker_4a96691cdeb7e8a5815190561ccebf10.setIcon(icon_8e43454515ff19f2f7f9f6102c89d1d0);
+            
+    
+            var marker_c9a9f49fa611a99923c329ebd3b43293 = L.marker(
+                [45.7727198, 15.9449462],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_00315e30e3c7defd44d29e6e1518f1d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab45acdc8ac943f83589a66340d5c7e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe3bf2fe1209781205540217ec01ee01 = $(`<div id="html_fe3bf2fe1209781205540217ec01ee01" style="width: 100.0%; height: 100.0%;">17. LUKA JAJČINOVIĆ</div>`)[0];
+                popup_ab45acdc8ac943f83589a66340d5c7e3.setContent(html_fe3bf2fe1209781205540217ec01ee01);
+            
+        
+
+        marker_c9a9f49fa611a99923c329ebd3b43293.bindPopup(popup_ab45acdc8ac943f83589a66340d5c7e3)
+        ;
+
+        
+    
+    
+                marker_c9a9f49fa611a99923c329ebd3b43293.setIcon(icon_00315e30e3c7defd44d29e6e1518f1d5);
+            
+    
+            var marker_ca227297c282301377ace1808994748a = L.marker(
+                [45.7631154, 15.9598762],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_dee59af4be823c15303e3cdeb9efa3da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d371849f3a03613babde1dfbd8d2bce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20d184532aba7871561166fff3eb4dc9 = $(`<div id="html_20d184532aba7871561166fff3eb4dc9" style="width: 100.0%; height: 100.0%;">18. IVAN ILIČIĆ</div>`)[0];
+                popup_8d371849f3a03613babde1dfbd8d2bce.setContent(html_20d184532aba7871561166fff3eb4dc9);
+            
+        
+
+        marker_ca227297c282301377ace1808994748a.bindPopup(popup_8d371849f3a03613babde1dfbd8d2bce)
+        ;
+
+        
+    
+    
+                marker_ca227297c282301377ace1808994748a.setIcon(icon_dee59af4be823c15303e3cdeb9efa3da);
+            
+    
+            var marker_ce938195d771527b87b48ed6051a3c9c = L.marker(
+                [45.7438125, 16.0147914],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_e99921acdef458332646288852d4bc6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2eb686ae229a9290489555c57716c8a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfb3ab64a5fcad5090149de6413cc260 = $(`<div id="html_bfb3ab64a5fcad5090149de6413cc260" style="width: 100.0%; height: 100.0%;">19. MARTINA MAJDANDŽIĆ</div>`)[0];
+                popup_2eb686ae229a9290489555c57716c8a6.setContent(html_bfb3ab64a5fcad5090149de6413cc260);
+            
+        
+
+        marker_ce938195d771527b87b48ed6051a3c9c.bindPopup(popup_2eb686ae229a9290489555c57716c8a6)
+        ;
+
+        
+    
+    
+                marker_ce938195d771527b87b48ed6051a3c9c.setIcon(icon_e99921acdef458332646288852d4bc6d);
+            
+    
+            var marker_3609e684fc31cf2fdbcbde3025f450ec = L.marker(
+                [45.8451498, 16.0732567],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_70daa5a6976056f66b4ce5a6d90eb31a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47c4ad2444c5e33302d46f9901d5bdd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2e863774405f1476327984e6205e8f0 = $(`<div id="html_e2e863774405f1476327984e6205e8f0" style="width: 100.0%; height: 100.0%;">20. IVICA TIKVIĆ</div>`)[0];
+                popup_47c4ad2444c5e33302d46f9901d5bdd4.setContent(html_e2e863774405f1476327984e6205e8f0);
+            
+        
+
+        marker_3609e684fc31cf2fdbcbde3025f450ec.bindPopup(popup_47c4ad2444c5e33302d46f9901d5bdd4)
+        ;
+
+        
+    
+    
+                marker_3609e684fc31cf2fdbcbde3025f450ec.setIcon(icon_70daa5a6976056f66b4ce5a6d90eb31a);
+            
+    
+            var marker_1116a29705aa7e0ea38966130f79d281 = L.marker(
+                [45.814073, 16.0510383],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_0909e4c1389fdd358de245a8d106f9f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f48bbf2f09c8199c2a22b322cef7a07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a005f64523884f526c54929cd3d495e = $(`<div id="html_2a005f64523884f526c54929cd3d495e" style="width: 100.0%; height: 100.0%;">21. SINIŠA OPAČIĆ</div>`)[0];
+                popup_8f48bbf2f09c8199c2a22b322cef7a07.setContent(html_2a005f64523884f526c54929cd3d495e);
+            
+        
+
+        marker_1116a29705aa7e0ea38966130f79d281.bindPopup(popup_8f48bbf2f09c8199c2a22b322cef7a07)
+        ;
+
+        
+    
+    
+                marker_1116a29705aa7e0ea38966130f79d281.setIcon(icon_0909e4c1389fdd358de245a8d106f9f4);
+            
+    
+            var marker_ecc1e3f18f9f4dd23a220c5961dac255 = L.marker(
+                [45.846421, 15.9249922],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_49960576ade0dc39d43e96db389e918f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68cd1a3d00490a0cdf319538924c720a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63302613892766a1a4f5b2ecb1065899 = $(`<div id="html_63302613892766a1a4f5b2ecb1065899" style="width: 100.0%; height: 100.0%;">22. IVAN JURIŠIĆ</div>`)[0];
+                popup_68cd1a3d00490a0cdf319538924c720a.setContent(html_63302613892766a1a4f5b2ecb1065899);
+            
+        
+
+        marker_ecc1e3f18f9f4dd23a220c5961dac255.bindPopup(popup_68cd1a3d00490a0cdf319538924c720a)
+        ;
+
+        
+    
+    
+                marker_ecc1e3f18f9f4dd23a220c5961dac255.setIcon(icon_49960576ade0dc39d43e96db389e918f);
+            
+    
+            var marker_4aeaa4485abe3da6b4d0504743975784 = L.marker(
+                [45.8220303, 15.950804],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_0f61d61807a1dcb3ea776d431175998f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a69c64a419fda68a8e30ef793e6d2872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dbb7462ea89a2b7092b1c90482dc780 = $(`<div id="html_9dbb7462ea89a2b7092b1c90482dc780" style="width: 100.0%; height: 100.0%;">23. DORA DROPULIĆ</div>`)[0];
+                popup_a69c64a419fda68a8e30ef793e6d2872.setContent(html_9dbb7462ea89a2b7092b1c90482dc780);
+            
+        
+
+        marker_4aeaa4485abe3da6b4d0504743975784.bindPopup(popup_a69c64a419fda68a8e30ef793e6d2872)
+        ;
+
+        
+    
+    
+                marker_4aeaa4485abe3da6b4d0504743975784.setIcon(icon_0f61d61807a1dcb3ea776d431175998f);
+            
+    
+            var marker_bf435623b3582cab9a4a61caf44fe765 = L.marker(
+                [45.800964, 16.0147374],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_1ec98be7191c0aa2dfdeb639c6bd921e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16e9d9acab59a0f338e8f4c1db830928 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd57746e536c4b3fc927e73971cdd2b = $(`<div id="html_1cd57746e536c4b3fc927e73971cdd2b" style="width: 100.0%; height: 100.0%;">24. DRAGUTIN VUKALOVIĆ</div>`)[0];
+                popup_16e9d9acab59a0f338e8f4c1db830928.setContent(html_1cd57746e536c4b3fc927e73971cdd2b);
+            
+        
+
+        marker_bf435623b3582cab9a4a61caf44fe765.bindPopup(popup_16e9d9acab59a0f338e8f4c1db830928)
+        ;
+
+        
+    
+    
+                marker_bf435623b3582cab9a4a61caf44fe765.setIcon(icon_1ec98be7191c0aa2dfdeb639c6bd921e);
+            
+    
+            var marker_e6b877e0c86bd2a74152c65596785ca9 = L.marker(
+                [45.818254, 16.0442853],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_aed369b3ff40b914a5b5be96ea152494 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acea33a27aa3a44757f3f617f71101ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81080bea0b3fcdd90d2e9153c06379a9 = $(`<div id="html_81080bea0b3fcdd90d2e9153c06379a9" style="width: 100.0%; height: 100.0%;">25. RENATA ČIBARIĆ</div>`)[0];
+                popup_acea33a27aa3a44757f3f617f71101ed.setContent(html_81080bea0b3fcdd90d2e9153c06379a9);
+            
+        
+
+        marker_e6b877e0c86bd2a74152c65596785ca9.bindPopup(popup_acea33a27aa3a44757f3f617f71101ed)
+        ;
+
+        
+    
+    
+                marker_e6b877e0c86bd2a74152c65596785ca9.setIcon(icon_aed369b3ff40b914a5b5be96ea152494);
+            
+    
+            var marker_93373d161eacdf8542cc908ec806c011 = L.marker(
+                [45.7736694, 15.9478889],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_a2b8110d95158f99f2eea6eed5c8d174 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d15515ccfc54b0a9b29b9bb2b82fbe68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a48ce1ee2a4218da29a0b7dd6049cb = $(`<div id="html_56a48ce1ee2a4218da29a0b7dd6049cb" style="width: 100.0%; height: 100.0%;">26. DRAGAN POCRNJA</div>`)[0];
+                popup_d15515ccfc54b0a9b29b9bb2b82fbe68.setContent(html_56a48ce1ee2a4218da29a0b7dd6049cb);
+            
+        
+
+        marker_93373d161eacdf8542cc908ec806c011.bindPopup(popup_d15515ccfc54b0a9b29b9bb2b82fbe68)
+        ;
+
+        
+    
+    
+                marker_93373d161eacdf8542cc908ec806c011.setIcon(icon_a2b8110d95158f99f2eea6eed5c8d174);
+            
+    
+            var marker_fabf53caa4f729f725eb26d030fa63af = L.marker(
+                [45.8054556, 15.8989459],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_69241d9f029a19abfd66e99ae62e0f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edb858cf9790da609e54c7e1130bf2e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2683cddc12648834b9346b1fe68e7d04 = $(`<div id="html_2683cddc12648834b9346b1fe68e7d04" style="width: 100.0%; height: 100.0%;">27. ANTONIJA JONJIĆ</div>`)[0];
+                popup_edb858cf9790da609e54c7e1130bf2e9.setContent(html_2683cddc12648834b9346b1fe68e7d04);
+            
+        
+
+        marker_fabf53caa4f729f725eb26d030fa63af.bindPopup(popup_edb858cf9790da609e54c7e1130bf2e9)
+        ;
+
+        
+    
+    
+                marker_fabf53caa4f729f725eb26d030fa63af.setIcon(icon_69241d9f029a19abfd66e99ae62e0f3d);
+            
+    
+            var marker_69a6467509b2f22fb93687a6e3c6bcb4 = L.marker(
+                [45.8285799, 16.0104902],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_b14b8d74ac8884647b1c3866bc105683 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d38605740432f053afe308347d75b331 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebb276a84de788074cdbfdb7699722df = $(`<div id="html_ebb276a84de788074cdbfdb7699722df" style="width: 100.0%; height: 100.0%;">28. MORIS KOVAČ</div>`)[0];
+                popup_d38605740432f053afe308347d75b331.setContent(html_ebb276a84de788074cdbfdb7699722df);
+            
+        
+
+        marker_69a6467509b2f22fb93687a6e3c6bcb4.bindPopup(popup_d38605740432f053afe308347d75b331)
+        ;
+
+        
+    
+    
+                marker_69a6467509b2f22fb93687a6e3c6bcb4.setIcon(icon_b14b8d74ac8884647b1c3866bc105683);
+            
+    
+            var marker_c0a2abaf511859b4998625ca47f4becf = L.marker(
+                [45.7723037, 15.9539946],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_3c0e41e3924be14ee9348b515c6b6ef9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1af6a1b6c74a127912152ab6be0f5e73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52ee9fea4227d69953c6a2b3a320e348 = $(`<div id="html_52ee9fea4227d69953c6a2b3a320e348" style="width: 100.0%; height: 100.0%;">29. IVANA PASTUOVIĆ</div>`)[0];
+                popup_1af6a1b6c74a127912152ab6be0f5e73.setContent(html_52ee9fea4227d69953c6a2b3a320e348);
+            
+        
+
+        marker_c0a2abaf511859b4998625ca47f4becf.bindPopup(popup_1af6a1b6c74a127912152ab6be0f5e73)
+        ;
+
+        
+    
+    
+                marker_c0a2abaf511859b4998625ca47f4becf.setIcon(icon_3c0e41e3924be14ee9348b515c6b6ef9);
+            
+    
+            var marker_cd78598edf94691b665ba76ec4b76f5b = L.marker(
+                [45.7663025, 15.9723003],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_a7869d9a98f32054bf04c7f7beea2ce4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6237403b7377c89caee21696eed0267d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a63d0ff071674ec7aa48d316adfa0f = $(`<div id="html_53a63d0ff071674ec7aa48d316adfa0f" style="width: 100.0%; height: 100.0%;">30. ANTONIJA MARJANOVIĆ</div>`)[0];
+                popup_6237403b7377c89caee21696eed0267d.setContent(html_53a63d0ff071674ec7aa48d316adfa0f);
+            
+        
+
+        marker_cd78598edf94691b665ba76ec4b76f5b.bindPopup(popup_6237403b7377c89caee21696eed0267d)
+        ;
+
+        
+    
+    
+                marker_cd78598edf94691b665ba76ec4b76f5b.setIcon(icon_a7869d9a98f32054bf04c7f7beea2ce4);
+            
+    
+            var marker_9be362dabef00ca2538cc23757c27a4c = L.marker(
+                [45.7849232, 15.929071],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_2f25b78f415f6ed594d50ac22275c93d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5eac321e086badef6c62ac5ea213f799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd6ae61a4aa1e932df81c4a936e95efc = $(`<div id="html_cd6ae61a4aa1e932df81c4a936e95efc" style="width: 100.0%; height: 100.0%;">31. SARAH HOFFMAN</div>`)[0];
+                popup_5eac321e086badef6c62ac5ea213f799.setContent(html_cd6ae61a4aa1e932df81c4a936e95efc);
+            
+        
+
+        marker_9be362dabef00ca2538cc23757c27a4c.bindPopup(popup_5eac321e086badef6c62ac5ea213f799)
+        ;
+
+        
+    
+    
+                marker_9be362dabef00ca2538cc23757c27a4c.setIcon(icon_2f25b78f415f6ed594d50ac22275c93d);
+            
+    
+            var marker_5958b71b0fdabe82b0c69879e075f331 = L.marker(
+                [45.8730808, 16.0088164],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_0e78ece6b9665a203d0b4d1b7dd790e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_671161262ae0fcc5b42473bedb7011b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94504c1d7eb8cd2acccfa63d60931049 = $(`<div id="html_94504c1d7eb8cd2acccfa63d60931049" style="width: 100.0%; height: 100.0%;">32. BRANIMIR ANTUN PUNTARIĆ</div>`)[0];
+                popup_671161262ae0fcc5b42473bedb7011b5.setContent(html_94504c1d7eb8cd2acccfa63d60931049);
+            
+        
+
+        marker_5958b71b0fdabe82b0c69879e075f331.bindPopup(popup_671161262ae0fcc5b42473bedb7011b5)
+        ;
+
+        
+    
+    
+                marker_5958b71b0fdabe82b0c69879e075f331.setIcon(icon_0e78ece6b9665a203d0b4d1b7dd790e2);
+            
+    
+            var marker_83d5260eaea6042af0a41a164b8265bb = L.marker(
+                [45.8005989, 15.9219974],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_5a43011b2e71745d2f164ad5bf7fde2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2ac8f22eb6517133c0f66378a18bbce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55fc77cd7ccc62b451cb944f66bcf4bf = $(`<div id="html_55fc77cd7ccc62b451cb944f66bcf4bf" style="width: 100.0%; height: 100.0%;">33. IVANA JOKIĆ</div>`)[0];
+                popup_f2ac8f22eb6517133c0f66378a18bbce.setContent(html_55fc77cd7ccc62b451cb944f66bcf4bf);
+            
+        
+
+        marker_83d5260eaea6042af0a41a164b8265bb.bindPopup(popup_f2ac8f22eb6517133c0f66378a18bbce)
+        ;
+
+        
+    
+    
+                marker_83d5260eaea6042af0a41a164b8265bb.setIcon(icon_5a43011b2e71745d2f164ad5bf7fde2d);
+            
+    
+            var marker_81c74e374efc5c833a88abfd5866f784 = L.marker(
+                [45.8105884, 15.9826082],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_038eb9f98107c1cd1cf01015e31b3092 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c0a014ee43616b6c9ce7b8e957b1dd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70ea76d263ddac265ba7b0dcdfaab16d = $(`<div id="html_70ea76d263ddac265ba7b0dcdfaab16d" style="width: 100.0%; height: 100.0%;">34. DANICA KOLAK</div>`)[0];
+                popup_4c0a014ee43616b6c9ce7b8e957b1dd2.setContent(html_70ea76d263ddac265ba7b0dcdfaab16d);
+            
+        
+
+        marker_81c74e374efc5c833a88abfd5866f784.bindPopup(popup_4c0a014ee43616b6c9ce7b8e957b1dd2)
+        ;
+
+        
+    
+    
+                marker_81c74e374efc5c833a88abfd5866f784.setIcon(icon_038eb9f98107c1cd1cf01015e31b3092);
+            
+    
+            var marker_7196889a11b79c493b72d44d775511c0 = L.marker(
+                [45.821313, 16.1553025],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_cee388ca2be5ec2ada50b3545aa49f63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5e1d586ee9729bd400c00b0fa2b5686 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6a3faed0a02a1e6eef947de28ed17ac = $(`<div id="html_b6a3faed0a02a1e6eef947de28ed17ac" style="width: 100.0%; height: 100.0%;">36. ŠIMUN SINOVČIĆ</div>`)[0];
+                popup_b5e1d586ee9729bd400c00b0fa2b5686.setContent(html_b6a3faed0a02a1e6eef947de28ed17ac);
+            
+        
+
+        marker_7196889a11b79c493b72d44d775511c0.bindPopup(popup_b5e1d586ee9729bd400c00b0fa2b5686)
+        ;
+
+        
+    
+    
+                marker_7196889a11b79c493b72d44d775511c0.setIcon(icon_cee388ca2be5ec2ada50b3545aa49f63);
+            
+    
+            var marker_9c91256e9c0a77cb8c6f912cc11767f6 = L.marker(
+                [45.7989919, 16.001668],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_12ed3055a2ec34640fb6f504b28b2ad2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3cd3df58fccde44638b9dc5b1c0d606 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4e7d7e4e80c23903dd4cb68a3b23d22 = $(`<div id="html_b4e7d7e4e80c23903dd4cb68a3b23d22" style="width: 100.0%; height: 100.0%;">37. GABRIJELA NOVAK</div>`)[0];
+                popup_b3cd3df58fccde44638b9dc5b1c0d606.setContent(html_b4e7d7e4e80c23903dd4cb68a3b23d22);
+            
+        
+
+        marker_9c91256e9c0a77cb8c6f912cc11767f6.bindPopup(popup_b3cd3df58fccde44638b9dc5b1c0d606)
+        ;
+
+        
+    
+    
+                marker_9c91256e9c0a77cb8c6f912cc11767f6.setIcon(icon_12ed3055a2ec34640fb6f504b28b2ad2);
+            
+    
+            var marker_7cdff2f698309cff4629aa9f76e73d9f = L.marker(
+                [45.7548074, 15.9541793],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_b4bf073436653f6d25a338dac81e8adb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_567ac7a904133df431370c9588b4f2d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c28499332386992eaf471ab236326a3b = $(`<div id="html_c28499332386992eaf471ab236326a3b" style="width: 100.0%; height: 100.0%;">38. SNJEŽANA BILKIĆ</div>`)[0];
+                popup_567ac7a904133df431370c9588b4f2d4.setContent(html_c28499332386992eaf471ab236326a3b);
+            
+        
+
+        marker_7cdff2f698309cff4629aa9f76e73d9f.bindPopup(popup_567ac7a904133df431370c9588b4f2d4)
+        ;
+
+        
+    
+    
+                marker_7cdff2f698309cff4629aa9f76e73d9f.setIcon(icon_b4bf073436653f6d25a338dac81e8adb);
+            
+    
+            var marker_05c13c1aeafa0b018af36bab94f5d55c = L.marker(
+                [45.9026931, 16.1511514],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_d937eed00b4fede2dc71d0adfd29b9e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c4aca431e701cedf980278d7fa75228 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa199b66c954ac08fbaa5f03eb992ffa = $(`<div id="html_fa199b66c954ac08fbaa5f03eb992ffa" style="width: 100.0%; height: 100.0%;">39. MATIJA ŠKRAPEC</div>`)[0];
+                popup_4c4aca431e701cedf980278d7fa75228.setContent(html_fa199b66c954ac08fbaa5f03eb992ffa);
+            
+        
+
+        marker_05c13c1aeafa0b018af36bab94f5d55c.bindPopup(popup_4c4aca431e701cedf980278d7fa75228)
+        ;
+
+        
+    
+    
+                marker_05c13c1aeafa0b018af36bab94f5d55c.setIcon(icon_d937eed00b4fede2dc71d0adfd29b9e5);
+            
+    
+            var marker_7d85ec2b42ff7e36cfc8ec3af140a493 = L.marker(
+                [45.8211737, 15.9002223],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_8380a84ae3bc4f886c16dcd95afb6c0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5c164b3afe5da1caf88e8947963911b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53086f0296614e91f99dbc68bfae5849 = $(`<div id="html_53086f0296614e91f99dbc68bfae5849" style="width: 100.0%; height: 100.0%;">40. IVAN TERZE</div>`)[0];
+                popup_f5c164b3afe5da1caf88e8947963911b.setContent(html_53086f0296614e91f99dbc68bfae5849);
+            
+        
+
+        marker_7d85ec2b42ff7e36cfc8ec3af140a493.bindPopup(popup_f5c164b3afe5da1caf88e8947963911b)
+        ;
+
+        
+    
+    
+                marker_7d85ec2b42ff7e36cfc8ec3af140a493.setIcon(icon_8380a84ae3bc4f886c16dcd95afb6c0a);
+            
+    
+            var marker_ccbcefdfc2fd913d23d0e814a2fe17cd = L.marker(
+                [45.7685379, 15.9415854],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_1d9a3798a596dbf7df3d83df59d2abc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f500857355344ca46596453058b07da3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d04aadad6ab9aba7bfc1a5b79931dbd2 = $(`<div id="html_d04aadad6ab9aba7bfc1a5b79931dbd2" style="width: 100.0%; height: 100.0%;">41. IVA ŠARIĆ</div>`)[0];
+                popup_f500857355344ca46596453058b07da3.setContent(html_d04aadad6ab9aba7bfc1a5b79931dbd2);
+            
+        
+
+        marker_ccbcefdfc2fd913d23d0e814a2fe17cd.bindPopup(popup_f500857355344ca46596453058b07da3)
+        ;
+
+        
+    
+    
+                marker_ccbcefdfc2fd913d23d0e814a2fe17cd.setIcon(icon_1d9a3798a596dbf7df3d83df59d2abc9);
+            
+    
+            var marker_0fc8364ee25a25837f6bab0bf512620d = L.marker(
+                [45.8385614, 16.0582884],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_f38c9237930d4c072279f833b5c3a70e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1235309e16e24c0f7ec7b28437ef42a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e07c7901d6d18a06a4818f895a378232 = $(`<div id="html_e07c7901d6d18a06a4818f895a378232" style="width: 100.0%; height: 100.0%;">42. MATKO LOZANČIĆ</div>`)[0];
+                popup_1235309e16e24c0f7ec7b28437ef42a0.setContent(html_e07c7901d6d18a06a4818f895a378232);
+            
+        
+
+        marker_0fc8364ee25a25837f6bab0bf512620d.bindPopup(popup_1235309e16e24c0f7ec7b28437ef42a0)
+        ;
+
+        
+    
+    
+                marker_0fc8364ee25a25837f6bab0bf512620d.setIcon(icon_f38c9237930d4c072279f833b5c3a70e);
+            
+    
+            var marker_cc8982a8eb82024c85c796f33cddc764 = L.marker(
+                [45.7944031, 15.9466358],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_eb01edb772a8fb8d61ef1274383a8787 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d530b8f958f0556fbd89de30513a2443 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8686b97ef7f0652e317f7c6bdb57a36e = $(`<div id="html_8686b97ef7f0652e317f7c6bdb57a36e" style="width: 100.0%; height: 100.0%;">43. MARINKA PERLIĆ</div>`)[0];
+                popup_d530b8f958f0556fbd89de30513a2443.setContent(html_8686b97ef7f0652e317f7c6bdb57a36e);
+            
+        
+
+        marker_cc8982a8eb82024c85c796f33cddc764.bindPopup(popup_d530b8f958f0556fbd89de30513a2443)
+        ;
+
+        
+    
+    
+                marker_cc8982a8eb82024c85c796f33cddc764.setIcon(icon_eb01edb772a8fb8d61ef1274383a8787);
+            
+    
+            var marker_143883b45b5db3687ff2dc8f4d1e8a0b = L.marker(
+                [45.788641, 15.912557],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_185d685a6b22b0654496c6a88d09dfde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3141b3dd08c4f01682e13f8a036c8f36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a90068ec2f682a8ee9112d4cc0caba = $(`<div id="html_96a90068ec2f682a8ee9112d4cc0caba" style="width: 100.0%; height: 100.0%;">44. ANDREA VANĐELIĆ</div>`)[0];
+                popup_3141b3dd08c4f01682e13f8a036c8f36.setContent(html_96a90068ec2f682a8ee9112d4cc0caba);
+            
+        
+
+        marker_143883b45b5db3687ff2dc8f4d1e8a0b.bindPopup(popup_3141b3dd08c4f01682e13f8a036c8f36)
+        ;
+
+        
+    
+    
+                marker_143883b45b5db3687ff2dc8f4d1e8a0b.setIcon(icon_185d685a6b22b0654496c6a88d09dfde);
+            
+    
+            var marker_52ba802b9044462d8f64411bf97da6bb = L.marker(
+                [45.8363309, 16.0414788],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_6e3af81b09420302e1bd17f269e5ee3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_811c093158945c78e515d23adc3d77fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18b846f80a09b545c99a5b6274ca399a = $(`<div id="html_18b846f80a09b545c99a5b6274ca399a" style="width: 100.0%; height: 100.0%;">45. DAVOR MAČUKAT</div>`)[0];
+                popup_811c093158945c78e515d23adc3d77fa.setContent(html_18b846f80a09b545c99a5b6274ca399a);
+            
+        
+
+        marker_52ba802b9044462d8f64411bf97da6bb.bindPopup(popup_811c093158945c78e515d23adc3d77fa)
+        ;
+
+        
+    
+    
+                marker_52ba802b9044462d8f64411bf97da6bb.setIcon(icon_6e3af81b09420302e1bd17f269e5ee3c);
+            
+    
+            var marker_c2f10056dc28d9a35bd7b68ef8425d24 = L.marker(
+                [45.8078232, 15.934183],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_a868fc38ab27258e8a720ca90f65f03e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eb1a72fbc843b22ee161bf31f7c5428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76afcab4df607b7a552c1c92b66e7026 = $(`<div id="html_76afcab4df607b7a552c1c92b66e7026" style="width: 100.0%; height: 100.0%;">46. TANJA ŠIMANIĆ</div>`)[0];
+                popup_8eb1a72fbc843b22ee161bf31f7c5428.setContent(html_76afcab4df607b7a552c1c92b66e7026);
+            
+        
+
+        marker_c2f10056dc28d9a35bd7b68ef8425d24.bindPopup(popup_8eb1a72fbc843b22ee161bf31f7c5428)
+        ;
+
+        
+    
+    
+                marker_c2f10056dc28d9a35bd7b68ef8425d24.setIcon(icon_a868fc38ab27258e8a720ca90f65f03e);
+            
+    
+            var marker_26fc5a1c4eb29e81dd8a5293891d4a13 = L.marker(
+                [45.8086009, 15.8876467],
+                {
+}
+            ).addTo(map_70deb6029f1cdc1e4d770fa7ab5ec551);
+        
+    
+            var icon_adb9a91aa666685091987e613b31d0c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b057befc6094cb0be5c8b92e2a8a3175 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cc3f998f6f74fd0467c0161179d2d36 = $(`<div id="html_7cc3f998f6f74fd0467c0161179d2d36" style="width: 100.0%; height: 100.0%;">47. MARKO SLADOLJEV</div>`)[0];
+                popup_b057befc6094cb0be5c8b92e2a8a3175.setContent(html_7cc3f998f6f74fd0467c0161179d2d36);
+            
+        
+
+        marker_26fc5a1c4eb29e81dd8a5293891d4a13.bindPopup(popup_b057befc6094cb0be5c8b92e2a8a3175)
+        ;
+
+        
+    
+    
+                marker_26fc5a1c4eb29e81dd8a5293891d4a13.setIcon(icon_adb9a91aa666685091987e613b31d0c0);
+            
+</script>
+</html>
