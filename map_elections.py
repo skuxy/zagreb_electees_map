@@ -116,6 +116,7 @@ def color_all():
 
     for party, color in colors.items():
         with open('temp/data/' + party + '_temp.csv', 'r', encoding='utf-8') as file:
+            group = folium.FeatureGroup(name=party)
             reader = csv.DictReader(file, delimiter=';')
             for row in reader:
                 name = row['name']
@@ -127,8 +128,11 @@ def color_all():
                         location=[latitude, longitude],
                         popup=party + '\n' + name + '\n' + address,
                         icon=folium.Icon(color=color, icon='info-sign')
-                    ).add_to(map_osm)
+                    ).add_to(group)
 
+            group.add_to(map_osm)
+
+    folium.LayerControl(collappsed=False, ).add_to(map_osm)
     map_osm.save('results/all_parties_map.html')
 
 if __name__ == "__main__":
